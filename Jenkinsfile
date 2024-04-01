@@ -20,6 +20,8 @@ pipeline {
                 // Restore dependencies using the .NET Core CLI
                 //sh 'dotnet restore'
               echo 'this is Restore ....'
+              echo 'this is Restore2 ....'
+
             }
         }
 
