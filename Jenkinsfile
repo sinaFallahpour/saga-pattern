@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from version control
-                git 'your_repository_url'
+                git 'https://github.com/sinaFallahpour/saga-pattern.git'
             }
         }
 
