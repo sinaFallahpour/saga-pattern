@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOTNET_CLI_TELEMETRY_OPTOUT = 'true'
         DOTNET_SKIP_FIRST_TIME_EXPERIENCE = 'true'
-        DOTNET_CLI_HOME = tool name: 'dotnet-sdk-3.1.403', type: 'org.jenkinsci.plugins.tools.InstallSourceProperty$Installables', label: ''
+        //DOTNET_CLI_HOME = tool name: 'dotnet-sdk-3.1.403', type: 'org.jenkinsci.plugins.tools.InstallSourceProperty$Installables', label: ''
     }
 
     stages {
