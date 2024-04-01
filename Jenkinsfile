@@ -8,12 +8,12 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
+        //stage('Checkout') {
+            //steps {
                 // Checkout your source code from version control
-                git 'https://github.com/sinaFallahpour/saga-pattern.git'
-            }
-        }
+           //     git 'https://github.com/sinaFallahpour/saga-pattern.git'
+         //   }
+       // }
 
         stage('Restore') {
             steps {
